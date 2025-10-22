@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ nav{
+    display: flex;
+    border: 1px solid rgb(0, 255, 26);
+    justify-content: space-between;
+    padding: 1%;
+    background: rgb(148, 210, 155);
+ }
+
+    .hero1{
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .hero-descricao{
+        border: 3px solid red   ;
+        width: 70%;
+        background: rgb(239, 164, 164);
+    }
+
+    .hero-imagem{
+        border: 3px solid rgb(0, 213, 255);
+        width: 30%;
+        height: 500px;
+        background: rgb(170, 219, 234);
+    }
+    .hero-cards{
+        display: flex;
+        border: 4px solid red;
+    
+    }
+    
+    .card{
+        border: 1px solid blue;
+        background: rebeccapurple;
+    
+    }
+    footer{
+        border: 3px solid rgb(0, 255, 26);
+        text-align: center;
+    }
